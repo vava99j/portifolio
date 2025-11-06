@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Vagner</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Portfólio</h1>
+        <h2>
+            Aqui apresento minhas principais experiências como Dev
+            <span id="areas" class="frase palavra">web</span>
+            <span id="tipos" class="frase palavra">front-end</span>
+        </h2>
+    </header>
+    <section class="cards">
+      
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img class="card-img" src="img/appq.png" alt="Imagem do Card">
+
+                    <div class="card-conteudo">
+                        <h3 class="card-titulo">App Tec-Hor</h3>
+                        <p class="card-texto">
+                          Aplicativo mobile feito rem React-Native para o cliente obter horarios para 
+                          cuidar de plantas(personalizado para cada planta) e tambem tem a função de usar
+                           nossa estufa, por via app de qualquer lugar do mundo o cliente tera como 
+                           programar a horta
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-back">
+                    <img class="card-img" src="img/appr.png " alt="Imagem do Card">
+                    <h3>Detalhes Técnicos</h3>
+                    <p>
+                        Tecnologias usadas: Node.js, React-Native, API GEMINI e API PLANT.ID
+                    </p>
+                    <p>
+                        Trageto tecnico da informação: <br>
+                        User faz login, 
+                        Cliente tira foto da planta que ele tem, Plant.ID analisa e atraves de prompt personalizado
+                        usa o gemini para obter cuidados da planta e envia para o BD e na aba login é feita a sincronização com a estufa e a planta desejada.
+
+                    </p>
+                    <a class="card-btn" href="https://github.com/vava99j/tcc.git">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <!-- Frente -->
+                <div class="card-front">
+                    <img class="card-img" src="img/siteq.png" alt="Imagem do Card">
+
+                    <div class="card-conteudo">
+                        <h3 class="card-titulo">Site Tec-Hor</h3>
+                        <p class="card-texto">
+                            Esse site com layout responsivo foi usado no meu TCC para apresentar o nosso produto,
+                            com foco em dinamicidade e simplicidade para inclusão.
+                        </p>
+                        <a class="card-btn" href="https://servidor-632w.onrender.com/home">Site</a>
+                    </div>
+                </div>
+
+                <!-- Verso -->
+                <div class="card-back">
+                    <img class="card-img" src="img/Captura de tela 2025-11-05 203314.png" alt="Imagem do Card">
+                    <h3>Detalhes Técnicos</h3>
+                    <p>
+                        Tecnologias usadas: Node.js, Express, HTML, CSS, e integração com banco de dados MySQL.
+                    </p>
+                    <p>
+                        Esse repositorio foi utilizado para front do site e backend do app e do app <br>
+                        *plano gratis e consequências
+                    </p>
+                    <a class="card-btn" href="https://github.com/vava99j/servidor.git">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="life.js" defer></script>
+</body>
+
+</html>
